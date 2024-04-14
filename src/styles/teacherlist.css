@@ -1,0 +1,53 @@
+.list--header {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.list--header h2 {
+  color: #526d82;
+}
+
+.list--header select {
+  border-radius: 10px;
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid #dde6ed;
+  color: #526d82;
+}
+
+.list--container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+  height: 5rem;
+}
+
+.teacher--detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #526d82;
+}
+
+.teacher--detail img {
+  width: 55px;
+  height: 3.2rem;
+  background: #dde6ed;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.list:hover {
+  background: #dde6ed;
+  border-radius: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard--content {
+  background: #fff;
+  flex: 1;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.modes {
+  position: absolute;
+  top: 3.5rem;
+  left: 68rem;
+}
+
+#light .dashboard--content{
+  background-color: #fff;
+}
+
+#dark .dashboard--content{
+  background-color: #010A17;
+}
+
+#dark span{
+  color: #ffffff;
+}
+
+#dark .card{
+  background: #011734;
+}
+
+#dark 
+.user--profile{
+  background: #011734;
+}
+
+#dark .user-courses{
+  background: #011734;
+}
+#dark .course{
+  background: #00040A;
+}
+
+#dark .title{
+  color: #ffffff;
+}
+
+#dark .action{
+  color: #ffffff;
+}
+
